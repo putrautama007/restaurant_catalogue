@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:restaurant_catalogue/model/restauran_model.dart';
 
-class DetailRestaurant extends StatelessWidget {
-  final RestaurantModel restaurantModel;
+class DetailRestaurantScreen extends StatelessWidget {
+  final RestaurantModel restaurant;
 
-  DetailRestaurant({this.restaurantModel});
+  DetailRestaurantScreen({this.restaurant});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class DetailRestaurant extends StatelessWidget {
       appBar: AppBar(
         centerTitle: false,
         title: Text(
-          restaurantModel.restaurantName,
+          restaurant.restaurantName,
           style: TextStyle(fontSize: 20),
         ),
       ),
@@ -22,11 +22,11 @@ class DetailRestaurant extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Hero(
-            tag: restaurantModel.restaurantName,
+            tag: restaurant.restaurantName,
             child: Material(
               color: Colors.transparent,
               child: Image.network(
-                restaurantModel.restaurantImage,
+                restaurant.restaurantImage,
                 height: 200,
                 width: MediaQuery.of(context).size.width,
                 fit: BoxFit.fill,
@@ -36,7 +36,7 @@ class DetailRestaurant extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 8.0),
             child: Text(
-              restaurantModel.restaurantName,
+              restaurant.restaurantName,
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ),
@@ -54,7 +54,7 @@ class DetailRestaurant extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(left: 8.0),
                   child: Text(
-                    restaurantModel.restaurantFoodPrices,
+                    restaurant.restaurantFoodPrices,
                     style: TextStyle(
                         fontWeight: FontWeight.normal,
                         color: Colors.black87,
@@ -72,7 +72,7 @@ class DetailRestaurant extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(left: 8.0),
                   child: Text(
-                    restaurantModel.restaurantRating,
+                    restaurant.restaurantRating,
                     style: TextStyle(
                         fontWeight: FontWeight.normal,
                         color: Colors.black87,
@@ -97,7 +97,7 @@ class DetailRestaurant extends StatelessWidget {
                   child: Padding(
                     padding: EdgeInsets.only(left: 8.0),
                     child: Text(
-                      restaurantModel.restaurantAddress,
+                      restaurant.restaurantAddress,
                       style: TextStyle(
                           color: Colors.black87,
                           fontWeight: FontWeight.normal,
@@ -111,7 +111,7 @@ class DetailRestaurant extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0),
             child: Text(
-              restaurantModel.restaurantDescription,
+              restaurant.restaurantDescription,
               style: TextStyle(
                 fontSize: 18,
               ),

@@ -41,8 +41,8 @@ class _RestaurantListScreenState extends State<RestaurantListScreen> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => DetailRestaurant(
-                        restaurantModel: RestaurantData.restaurantList[index],
+                      builder: (context) => DetailRestaurantScreen(
+                        restaurant: RestaurantData.restaurantList[index],
                       ),
                     ),
                   );
