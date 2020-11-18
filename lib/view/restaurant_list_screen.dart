@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restaurant_catalogue/model/restaurant_data.dart';
-import 'package:restaurant_catalogue/view/screen/detail_restaurant_screen.dart';
+import 'package:restaurant_catalogue/view/detail_restaurant_screen.dart';
 
 class RestaurantListScreen extends StatefulWidget {
   @override
