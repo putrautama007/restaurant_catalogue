@@ -2,12 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:restaurant_catalogue/model/restaurant_data.dart';
 import 'package:restaurant_catalogue/view/detail_restaurant_screen.dart';
 
-class RestaurantListScreen extends StatefulWidget {
-  @override
-  _RestaurantListScreenState createState() => _RestaurantListScreenState();
-}
-
-class _RestaurantListScreenState extends State<RestaurantListScreen> {
+class RestaurantListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

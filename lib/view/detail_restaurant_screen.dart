@@ -1,10 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:restaurant_catalogue/model/restauran_model.dart';
 
-class DetailRestaurantScreen extends StatelessWidget {
+class DetailRestaurantScreen extends StatefulWidget {
   final RestaurantModel restaurant;
 
   DetailRestaurantScreen({this.restaurant});
+
+  @override
+  _DetailRestaurantScreenState createState() => _DetailRestaurantScreenState();
+}
+
+class _DetailRestaurantScreenState extends State<DetailRestaurantScreen> {
+  bool _isFavorite;
+
+  @override
+  void initState() {
+    super.initState();
+    _isFavorite = false;
+  }
+
+  Color _checkBookMark() {
+    if (!_isFavorite) {
+      return Colors.white;
+    } else {
+      return Colors.red;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -13,20 +34,33 @@ class DetailRestaurantScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: false,
         title: Text(
-          restaurant.restaurantName,
+          widget.restaurant.restaurantName,
           style: TextStyle(fontSize: 20),
         ),
+        actions: [
+          IconButton(
+            icon: Icon(
+              Icons.favorite_rounded,
+              color: _checkBookMark(),
+            ),
+            onPressed: () {
+              setState(() {
+                _isFavorite = !_isFavorite;
+              });
+            },
+          )
+        ],
       ),
       body: Column(
         mainAxisSize: MainAxisSize.max,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Hero(
-            tag: restaurant.restaurantName,
+            tag: widget.restaurant.restaurantName,
             child: Material(
               color: Colors.transparent,
               child: Image.network(
-                restaurant.restaurantImage,
+                widget.restaurant.restaurantImage,
                 height: 200,
                 width: MediaQuery.of(context).size.width,
                 fit: BoxFit.fill,
@@ -36,7 +70,7 @@ class DetailRestaurantScreen extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 8.0),
             child: Text(
-              restaurant.restaurantName,
+              widget.restaurant.restaurantName,
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ),
@@ -54,7 +88,7 @@ class DetailRestaurantScreen extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(left: 8.0),
                   child: Text(
-                    restaurant.restaurantFoodPrices,
+                    widget.restaurant.restaurantFoodPrices,
                     style: TextStyle(
                         fontWeight: FontWeight.normal,
                         color: Colors.black87,
@@ -72,7 +106,7 @@ class DetailRestaurantScreen extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(left: 8.0),
                   child: Text(
-                    restaurant.restaurantRating,
+                    widget.restaurant.restaurantRating,
                     style: TextStyle(
                         fontWeight: FontWeight.normal,
                         color: Colors.black87,
@@ -97,7 +131,7 @@ class DetailRestaurantScreen extends StatelessWidget {
                   child: Padding(
                     padding: EdgeInsets.only(left: 8.0),
                     child: Text(
-                      restaurant.restaurantAddress,
+                      widget.restaurant.restaurantAddress,
                       style: TextStyle(
                           color: Colors.black87,
                           fontWeight: FontWeight.normal,
@@ -111,7 +145,7 @@ class DetailRestaurantScreen extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0),
             child: Text(
-              restaurant.restaurantDescription,
+              widget.restaurant.restaurantDescription,
               style: TextStyle(
                 fontSize: 18,
               ),
