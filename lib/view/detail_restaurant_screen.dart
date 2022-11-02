@@ -4,14 +4,14 @@ import 'package:restaurant_catalogue/model/restauran_model.dart';
 class DetailRestaurantScreen extends StatefulWidget {
   final RestaurantModel restaurant;
 
-  DetailRestaurantScreen({this.restaurant});
+  DetailRestaurantScreen({required this.restaurant});
 
   @override
   _DetailRestaurantScreenState createState() => _DetailRestaurantScreenState();
 }
 
 class _DetailRestaurantScreenState extends State<DetailRestaurantScreen> {
-  bool _isFavorite;
+  late bool _isFavorite;
 
   @override
   void initState() {

@@ -9,7 +9,7 @@ class RestaurantData {
         restaurantDescription:
             "Offering a luxurious fine-dining experience, Amuz Gourmet Restaurant amuses our senses from the very moment we step into this fine-dining restaurant. Strategically located at Sudirman Central Business District (SCBD), the restaurant is cozily nestled in a corner of the second floor of the Energy Building, which makes this fine-dining venue a perfect getaway from the crowded and busy streets of Jakarta.",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2019/03/amuz-jakarta-1.jpg",
+            "https://b.zmtcdn.com/data/pictures/5/7400965/6138cf38476d377b7c438b6635240920.jpg",
         restaurantRating: "4.5",
         restaurantFoodPrices: r"$$$$"),
     RestaurantModel(
@@ -18,7 +18,7 @@ class RestaurantData {
         restaurantDescription:
             "Henshin is a multi-level, multi-dimensional, food and beverage with one of the most spectacular city views you could possibly find in the city. The food is authentic Nikkei cuisine, a delicate mix of Japanese and Peruvian cuisine that took the world by storm for its freshness and exciting mix of flavors. Although it is a fine-dining venue, the cooking concept is still open kitchen so you can always peer and converse with the chefs with the exotic world of Nikkei cuisine.",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2018/09/henshin_westin-jakarta-restaurant-1.jpg",
+            "https://b.zmtcdn.com/data/pictures/4/18368134/14dd5b7058eaf849b95485b50d7882de.jpg",
         restaurantRating: "4.3",
         restaurantFoodPrices: r"$$$"),
     RestaurantModel(
@@ -27,7 +27,7 @@ class RestaurantData {
         restaurantDescription:
             "OKU Jakarta helmed by Chef Kazumasa Yazawa (or Chef Kaz for short), you will not find the regular Japanese omakase dishes that you might expect in a premium Japanese restaurant. Instead, you will experience a modern take on Japanese dishes with traditional flair. A celebration of texture, finest ingredients, and years of perfected techniques.",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2019/02/oku-3.jpg",
+            "https://b.zmtcdn.com/data/pictures/7/18286687/21bbc07447b37411a36b4313b089149e.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
         restaurantRating: "4.7",
         restaurantFoodPrices: r"$$$"),
     RestaurantModel(
@@ -36,7 +36,7 @@ class RestaurantData {
         restaurantDescription:
             "Inspired by the 8th century of Sriwijaya Kingdom in Indonesia, Sriwijaya presents the finest Progressive Indonesian cuisine, a modern approach of Indonesian dishes presented in an elegant way using French technique, in a warm and majestic ambiance alongside impeccable service. Definitely one the best Indonesian fine dining in Jakarta.",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2018/11/TDW-SRIWIJAYA-1.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-s/14/78/9d/2b/interior.jpg",
         restaurantRating: "4.5",
         restaurantFoodPrices: r"$$$$"),
     RestaurantModel(
@@ -45,7 +45,7 @@ class RestaurantData {
         restaurantDescription:
             "A true enjoyment of Turkish dining experience by Head Chef Sezai Zorlu, Turkish cuisine ambassador to Indonesia serving people of Jakarta for the past 10 years, will showcase his culinary skills as he transforms fresh ingredients, herbs and spices into tasty, healthy and sumptuous dishes. Now Turkuaz has expanded its wings by opening Turkuaz Authentic Baklava House located next to the existing restaurant.",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2018/11/turkuaz_jakarta.jpg",
+            "https://b.zmtcdn.com/data/pictures/1/7401841/afa4ddda27201f684ad72fa657fddc88.jpg?fit=around|750:500&crop=750:500;*,*",
         restaurantRating: "4.2",
         restaurantFoodPrices: r"$$$"),
     RestaurantModel(
@@ -55,7 +55,7 @@ class RestaurantData {
         restaurantDescription:
             "C’s has long been Grand Hyatt Jakarta’s favorite restaurant, serving the freshest selection of seafood, the finest choice of Australian and US Prime Beef. It is also a haven for wine connoisseurs with a 3,000-bottle walk-through cellar providing a great escape from even the toughest day. This restaurant features a fully open kitchen, four private rooms and a sweeping view of the lobby. Located on Level 4, C’s is a collage of sights, sounds and smells that will guarantee an unforgettable experience.",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2018/11/turkuaz_jakarta.jpg",
+            "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1721/JAKGH-P007-Cs-Grill.jpg/JAKGH-P007-Cs-Grill.16x9.jpg?imwidth=1920",
         restaurantRating: "4.6",
         restaurantFoodPrices: r"$$$$"),
     RestaurantModel(
@@ -65,7 +65,7 @@ class RestaurantData {
         restaurantDescription:
             "Meaning “clan” or “tribe” in Indonesian, KAUM celebrates unique traditional dishes, inspired by the archipelago’s indigenous tribes and their cooking techniques. KAUM – under the Potato Head family – also works closely with independent local producers in many remote areas to showcase the country’s incredible yet rare ingredients. For example, KAUM uses Amed Bali’s pure sea salt, which is only produced in less than 40 craftsmen in their village. While you can find popular, classic local food in their menu, such as chicken soto, satay Maranggi and batagor, KAUM also serves uncommon, unique yet authentic signature dishes such as prawn gulai Aceh, gohu tuna fish, fried malon quail eggs with rica-rica sauce and bobor daun kelor inside a young coconut.",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2018/03/KAUM1-1024x681-1.jpg",
+            "https://cdn.kaum.com/wp-content/uploads/2018/12/KAUMJAK11396-web.jpg",
         restaurantRating: "4.8",
         restaurantFoodPrices: r"$$$"),
     RestaurantModel(
@@ -75,7 +75,7 @@ class RestaurantData {
         restaurantDescription:
             "Located in Jakarta’s hip and bustling Sudirman Central Business District area, Kila Kila translates traditional Indonesian elements to its food as well as in its modern and chic atmosphere – check out the batik motifs and rattan-like birdcages hanging from the ceiling, for example. From Indonesian staples and comfort food such as oxtail soup, sauteed kangkung, pecel Madiun, nasi campur Bali, and lamb fried rice to a selection of Kila Kila’s signature dishes, like satay Wagyu, grilled short ribs with sereh and carp fish with acar kuning, you get to experience both traditional dishes as well as those with a modern twist here.",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2019/08/Kila-Kila.jpg",
+            "https://b.zmtcdn.com/data/pictures/4/18317364/f50927f42eea120d767e05494945e550.jpg",
         restaurantRating: "4.7",
         restaurantFoodPrices: r"$$$"),
     RestaurantModel(
@@ -85,7 +85,7 @@ class RestaurantData {
         restaurantDescription:
             "The Pallas is an architectural masterpiece of 1800m2, which resembles a modern-day colonial Dutch palace decked in the finest of Indonesian vintage furniture, located in one of the buzzing areas in Jakarta, SCBD. The Pallas is a go-to place for authentic comfort Indonesian food served in a grand setting offering everything from a variety of soto dishes, lamb tongseng, nasi uduk to different types of sambals from across the country. Aside from traditional dishes, The Pallas is one of the first high-end restaurants to offer Indonesian cuisine, mainly focused on rijsttafel – an elaborate meal presentation popularised by the colonial Dutch – where a set meal of up to 10 varieties of dishes is served. ",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2019/08/The-Pallas.jpg",
+            "https://b.zmtcdn.com/data/pictures/4/18428184/06beea17bc266c3b8b9f3ce863154e4e.jpg?fit=around|750:500&crop=750:500;*,*",
         restaurantRating: "4.4",
         restaurantFoodPrices: r"$$$"),
     RestaurantModel(
@@ -95,7 +95,7 @@ class RestaurantData {
         restaurantDescription:
             "Inspired by the legend of a stunning folklore princess during the times of Hinduism in Indonesia, this enchanting restaurant showcases the mystical history and transcends guests back in time through its detailed, unique and vintage interior design-almost like a mini historical museum – as well as in its dishes.",
         restaurantImage:
-            "https://whatsnewindonesia.com/jakarta/wp-content/uploads/sites/2/2019/08/lara-djongrang.jpg",
+            "https://b.zmtcdn.com/data/pictures/5/7404855/2a85a7d952e21e78d36a74cf53be4cba.jpg",
         restaurantRating: "4.6",
         restaurantFoodPrices: r"$$$"),
   ];

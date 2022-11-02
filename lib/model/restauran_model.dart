@@ -7,11 +7,11 @@ class RestaurantModel {
   String restaurantFoodPrices;
 
   RestaurantModel({
-    this.restaurantName,
-    this.restaurantDescription,
-    this.restaurantImage,
-    this.restaurantRating,
-    this.restaurantAddress,
-    this.restaurantFoodPrices,
+    required this.restaurantName,
+    required this.restaurantDescription,
+    required this.restaurantImage,
+    required this.restaurantRating,
+    required this.restaurantAddress,
+    required this.restaurantFoodPrices,
   });
 }
